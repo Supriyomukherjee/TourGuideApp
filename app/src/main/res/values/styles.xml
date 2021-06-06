@@ -1,0 +1,18 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="actionBarStyle">@style/TourAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="TourAppBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:windowBackground">@color/primary_dark</item>
+
+        <item name="background">@color/primary_dark</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+</resources>
+
